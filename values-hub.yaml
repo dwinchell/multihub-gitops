@@ -31,11 +31,6 @@ clusterGroup:
   #   - '/overrides/values-{{ $.Values.global.hubClusterDomain }}.yaml'
   #   - '/overrides/values-{{ $.Values.global.localClusterDomain }}.yaml'
   applications:
-    vault:
-      name: vault
-      namespace: vault
-      project: hub
-      path: common/hashicorp-vault
     golang-external-secrets:
       name: golang-external-secrets
       namespace: golang-external-secrets
