@@ -3,13 +3,16 @@ An example of centralized GitOps with multiple hubs
 
 # Getting Started
 
-**IMPORTANT: When you clone this, use the --recurse-submodules option**
+1. Clone this Git repository.
 
-This repository uses a submodule. In order for git to correctly pull the code, specify the --recurse-submodules option as part of the clone command:
+**IMPORTANT: When you clone the repository, use the --recurse-submodules option.**
 
 ```
 git clone --recurse-submodules https://github.com/dwinchell/multihub-gitops.git
 ```
+
+This repository uses a submodule. In order for git to correctly pull the code, specify the --recurse-submodules option as part of the clone command.
+
 2. Install the Pattern.
 ```
 ./pattern.sh make install
