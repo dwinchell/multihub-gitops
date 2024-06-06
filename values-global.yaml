@@ -9,3 +9,5 @@ main:
   clusterGroupName: hub
   multiSourceConfig:
     enabled: true
+secretStore:
+  backend: kubernetes
