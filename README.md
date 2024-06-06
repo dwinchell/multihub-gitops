@@ -8,3 +8,9 @@ This repository uses a submodule. In order for git to correctly pull the code, s
 ```
 git clone --recurse-submodules https://github.com/dwinchell/multihub-gitops.git
 ```
+# Setup
+
+```
+oc new-project validated-patterns-secrets
+oc create secret generic --from-literal="secret=Secret Data" config-demo -n validated-patterns-secrets
+```
